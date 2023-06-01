@@ -4,7 +4,232 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>periodic table</title>
+    <title>perodic table</title>
+    <style>
+      table {
+        width: 700px;
+      }
+
+      td {
+        padding: 5px;
+        border: 1px solid black;
+      }
+
+      .star-td {
+        border: none;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .blank {
+        border: none;
+        padding: none;
+      }
+
+      .group-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      tr,
+      td {
+        padding: 0.5rem;
+      }
+    </style>
   </head>
-  <body></body>
+
+  <body>
+    <h1 align="center">perodic table</h1>
+    <table align="center">
+      <tr>
+        <th class="group-head">
+          <span>Group&rarr; </span><span>Period &nbsp; &darr;</span>
+        </th>
+        <th>1</th>
+        <th>2</th>
+        <th></th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>7</th>
+        <th>8</th>
+        <th>9</th>
+        <th>10</th>
+        <th>11</th>
+        <th>12</th>
+        <th>13</th>
+        <th>14</th>
+        <th>15</th>
+        <th>16</th>
+        <th>17</th>
+        <th>18</th>
+      </tr>
+      <tr>
+        <th>1</th>
+        <td bgcolor="#FF9999">1 H</td>
+        <td class="blank"></td>
+        <td colspan="16" class="blank"></td>
+        <td bgcolor="#FF9999">2 He</td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td bgcolor="#FF9999">3 Li</td>
+        <td bgcolor="#FF9999">4 Be</td>
+        <td class="blank"></td>
+        <td colspan="10" class="blank"></td>
+        <td bgcolor="#FDFF8C">5 B</td>
+        <td bgcolor="#FDFF8C">6 C</td>
+        <td bgcolor="#FDFF8C">7 N</td>
+        <td bgcolor="#FDFF8C">8 O</td>
+        <td bgcolor="#FDFF8C">9&nbsp; F</td>
+        <td bgcolor="#FDFF8C">10 Ne</td>
+      </tr>
+      <tr>
+        <th>3</th>
+        <td bgcolor="#FF9999">11 Na</td>
+        <td bgcolor="#FF9999">12 Mg</td>
+        <td class="blank"></td>
+        <td colspan="10" class="blank"></td>
+        <td bgcolor="#FDFF8C">13 Al</td>
+        <td bgcolor="#FDFF8C">14 Si</td>
+        <td bgcolor="#FDFF8C">15 P</td>
+        <td bgcolor="#FDFF8C">16 S</td>
+        <td bgcolor="#FDFF8C">17 Cl</td>
+        <td bgcolor="#FDFF8C">18 Ar</td>
+      </tr>
+      <tr>
+        <th>4</th>
+        <td bgcolor="#FF9999">19 K</td>
+        <td bgcolor="#FF9999">20 Ca</td>
+        <td class="blank"></td>
+        <td bgcolor="#99CCFF">21 Sc</td>
+        <td bgcolor="#99CCFF">22 Ti</td>
+        <td bgcolor="#99CCFF">23 V</td>
+        <td bgcolor="#99CCFF">24 Cr</td>
+        <td bgcolor="#99CCFF">25 Mn</td>
+        <td bgcolor="#99CCFF">26 Fe</td>
+        <td bgcolor="#99CCFF">27 Co</td>
+        <td bgcolor="#99CCFF">28 Ni</td>
+        <td bgcolor="#99CCFF">29 Cu</td>
+        <td bgcolor="#99CCFF">30 Zn</td>
+        <td bgcolor="#FDFF8C">31 Ga</td>
+        <td bgcolor="#FDFF8C">32 Ge</td>
+        <td bgcolor="#FDFF8C">33 As</td>
+        <td bgcolor="#FDFF8C">34 Se</td>
+        <td bgcolor="#FDFF8C">35 Br</td>
+        <td bgcolor="#FDFF8C">36 Kr</td>
+      </tr>
+      <tr>
+        <th>5</th>
+        <td bgcolor="#FF9999">37 Rb</td>
+        <td bgcolor="#FF9999">38 Sr</td>
+        <td class="blank"></td>
+        <td bgcolor="#99CCFF">39 Y</td>
+        <td bgcolor="#99CCFF">40 Zr</td>
+        <td bgcolor="#99CCFF">41 Nb</td>
+        <td bgcolor="#99CCFF">42 Mo</td>
+        <td bgcolor="#99CCFF">43 Tc</td>
+        <td bgcolor="#99CCFF">44 Ru</td>
+        <td bgcolor="#99CCFF">45 Rh</td>
+        <td bgcolor="#99CCFF">46 Pd</td>
+        <td bgcolor="#99CCFF">47 Ag</td>
+        <td bgcolor="#99CCFF">48 Cd</td>
+        <td bgcolor="#FDFF8C">49 In</td>
+        <td bgcolor="#FDFF8C">50 Sn</td>
+        <td bgcolor="#FDFF8C">51 Sb</td>
+        <td bgcolor="#FDFF8C">52 Te</td>
+        <td bgcolor="#FDFF8C">53 I</td>
+        <td bgcolor="#FDFF8C">54 Xe</td>
+      </tr>
+      <tr>
+        <th>6</th>
+        <td bgcolor="#FF9999">55 Cs</td>
+        <td bgcolor="#FF9999">56 Ba</td>
+        <td class="star-td">*</td>
+        <td bgcolor="#99CCFF">71 Lu</td>
+        <td bgcolor="#99CCFF">72 Hf</td>
+        <td bgcolor="#99CCFF">73 Ta</td>
+        <td bgcolor="#99CCFF">74 W</td>
+        <td bgcolor="#99CCFF">75 Re</td>
+        <td bgcolor="#99CCFF">76 Os</td>
+        <td bgcolor="#99CCFF">77 Ir</td>
+        <td bgcolor="#99CCFF">78 Pt</td>
+        <td bgcolor="#99CCFF">79 Au</td>
+        <td bgcolor="#99CCFF">80 Hg</td>
+        <td bgcolor="#FDFF8C">81 Tl</td>
+        <td bgcolor="#FDFF8C">82 Pb</td>
+        <td bgcolor="#FDFF8C">83 Bt</td>
+        <td bgcolor="#FDFF8C">84 Po</td>
+        <td bgcolor="#FDFF8C">85 At</td>
+        <td bgcolor="#FDFF8C">86 Rn</td>
+      </tr>
+      <tr>
+        <th>7</th>
+        <td bgcolor="#FF9999">87 Fr</td>
+        <td bgcolor="#FF9999">88 Ra</td>
+        <td class="star-td"><span>*</span><span>*</span></td>
+
+        <td bgcolor="#99CCFF">103 Lr</td>
+        <td bgcolor="#99CCFF">104 Rf</td>
+        <td bgcolor="#99CCFF">105 Db</td>
+        <td bgcolor="#99CCFF">106 Sg</td>
+        <td bgcolor="#99CCFF">107 Bh</td>
+        <td bgcolor="#99CCFF">108 Hs</td>
+        <td bgcolor="#99CCFF">109 Mt</td>
+        <td bgcolor="#99CCFF">110 Ds</td>
+        <td bgcolor="#99CCFF">111 Rg</td>
+        <td bgcolor="#99CCFF">112 Cn</td>
+        <td bgcolor="#FDFF8C">113 Nh</td>
+        <td bgcolor="#FDFF8C">114 Fl</td>
+        <td bgcolor="#FDFF8C">115 Mc</td>
+        <td bgcolor="#FDFF8C">116 Lv</td>
+        <td bgcolor="#FDFF8C">117 Ts</td>
+        <td bgcolor="#FDFF8C">118 Og</td>
+      </tr>
+      <tr></tr>
+      <tr></tr>
+      <tr></tr>
+      <tr></tr>
+      <tr></tr>
+      <tr></tr>
+      <tr>
+        <td colspan="3" class="blank"></td>
+        <td class="star-td">*</td>
+        <td bgcolor="#9BFF99">57 La</td>
+        <td bgcolor="#9BFF99">58 Ce</td>
+        <td bgcolor="#9BFF99">59 Pr</td>
+        <td bgcolor="#9BFF99">60 Nd</td>
+        <td bgcolor="#9BFF99">61 Pm</td>
+        <td bgcolor="#9BFF99">62 Sm</td>
+        <td bgcolor="#9BFF99">63 Eu</td>
+        <td bgcolor="#9BFF99">64 Gd</td>
+        <td bgcolor="#9BFF99">65 Tb</td>
+        <td bgcolor="#9BFF99">66 Dy</td>
+        <td bgcolor="#9BFF99">67 Ho</td>
+        <td bgcolor="#9BFF99">68 Er</td>
+        <td bgcolor="#9BFF99">69 Tm</td>
+        <td bgcolor="#9BFF99">70 Yb</td>
+      </tr>
+      <tr>
+        <td colspan="3" class="blank"></td>
+        <td class="star-td"><span>*</span><span>*</span></td>
+        <td bgcolor="#9BFF99">57 La</td>
+        <td bgcolor="#9BFF99">58 Ce</td>
+        <td bgcolor="#9BFF99">59 Pr</td>
+        <td bgcolor="#9BFF99">60 Nd</td>
+        <td bgcolor="#9BFF99">61 Pm</td>
+        <td bgcolor="#9BFF99">62 Sm</td>
+        <td bgcolor="#9BFF99">63 Eu</td>
+        <td bgcolor="#9BFF99">64 Gd</td>
+        <td bgcolor="#9BFF99">65 Tb</td>
+        <td bgcolor="#9BFF99">66 Dy</td>
+        <td bgcolor="#9BFF99">67 Ho</td>
+        <td bgcolor="#9BFF99">68 Er</td>
+        <td bgcolor="#9BFF99">69 Tm</td>
+        <td bgcolor="#9BFF99">70 Yb</td>
+      </tr>
+    </table>
+  </body>
 </html>
